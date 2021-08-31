@@ -7,13 +7,38 @@ body {
 #domain-container {
   width: 30vw;
   margin: 0 auto;
-  padding: 20px;
-  border: 1px solid black;
+  border: 1px solid 44ee4e;
   border-radius: 20px;
   box-shadow: 5px 10px 10px #636363;
 }
 
 h1 {
-  margin-bottom: 20px;
+  width: 100%;
+  padding: 25px 0;
+  margin: 0;
+  background-color: #1e39d3;
+  color: white;
   text-align: center;
+  border-bottom: 1px solid #4e4e4e;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 20px 40px;
+  border: 1px solid #636363;
+}
+
+li:hover {
+  background-color: #eeeeeed0;
+}
+
+li:last-child {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
